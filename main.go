@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/bradford-hamilton/go-graphql-api/gql"
-	"github.com/bradford-hamilton/go-graphql-api/postgres"
-	"github.com/bradford-hamilton/go-graphql-api/server"
+	"github.com/sk4yb3n/go-graphql-api/gql"
+	"github.com/sk4yb3n/go-graphql-api/postgres"
+	"github.com/sk4yb3n/go-graphql-api/server"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
