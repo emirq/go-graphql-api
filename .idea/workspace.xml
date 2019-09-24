@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0974073b-ac01-4d40-b77d-d9c9dd95f1d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres/postgres.go" beforeDir="false" afterPath="$PROJECT_DIR$/postgres/postgres.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gql/gql.go" beforeDir="false" afterPath="$PROJECT_DIR$/gql/gql.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gql/queries.go" beforeDir="false" afterPath="$PROJECT_DIR$/gql/queries.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gql/resolvers.go" beforeDir="false" afterPath="$PROJECT_DIR$/gql/resolvers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gql/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/gql/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
