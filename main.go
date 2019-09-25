@@ -2,16 +2,17 @@ package main
 
 import (
 	"fmt"
+	postgres2 "github.com/bradford-hamilton/go-graphql-api/postgres"
 	"log"
 	"net/http"
 
-	"github.com/sk4yb3n/go-graphql-api/gql"
-	"github.com/sk4yb3n/go-graphql-api/postgres"
-	"github.com/sk4yb3n/go-graphql-api/server"
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/render"
 	"github.com/graphql-go/graphql"
+	"github.com/sk4yb3n/go-graphql-api-1/gql"
+	"github.com/sk4yb3n/go-graphql-api-1/postgres"
+	"github.com/sk4yb3n/go-graphql-api-1/server"
 )
 
 func main() {
@@ -37,7 +38,7 @@ func initializeAPI() (*chi.Mux, *postgres.Db) {
 	}
 
 	// Create our root query for graphql
-	rootQuery := gql.NewRoot(db)
+	rootQuery := gql.NewRoot((*postgres2.Db)(db))
 	// Create a new graphql schema, passing in the the root query
 	sc, err := graphql.NewSchema(
 		graphql.SchemaConfig{Query: rootQuery.Query},

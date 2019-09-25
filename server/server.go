@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sk4yb3n/go-graphql-api/gql"
 	"github.com/go-chi/render"
 	"github.com/graphql-go/graphql"
+	"github.com/sk4yb3n/go-graphql-api-1/gql"
 )
 
 // Server will hold connection to the db as well as handlers

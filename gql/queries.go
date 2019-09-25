@@ -1,8 +1,8 @@
 package gql
 
 import (
-	"github.com/sk4yb3n/go-graphql-api/postgres"
 	"github.com/graphql-go/graphql"
+	"github.com/sk4yb3n/go-graphql-api-1/postgres"
 )
 
 // Root holds a pointer to a graphql object
